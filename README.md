@@ -15,7 +15,7 @@ target usage
 ```
 ```
 
-var {get,clr}bh=backhand(target,baseurl);
+var {get,clr}=backhand(target,baseurl);
 
 await ''.txt();
 img('').img();
