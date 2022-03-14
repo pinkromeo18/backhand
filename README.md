@@ -14,8 +14,11 @@ target usage
 +----------+-------------------*-+
 ```
 ```
+
+var bh=backhand(target,baseurl);
+
 await ''.txt();
 img('').img();
 await ary.sel('{a}|{b}|{c}');
-var i=get(sel);
+var i=bh();
 ```
