@@ -15,12 +15,10 @@ target usage
 ```
 ```
 
-var {get,clr}=backhand(target,baseurl);
+var bh=backhand(target,baseurl);
 
 await ''.txt();
-img('').img();
+''.img();
 await ary.sel('{a}|{b}|{c}');
-
-var i=get();
-clr();
+var i=bh();
 ```
