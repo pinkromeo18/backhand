@@ -19,6 +19,6 @@ var bh=backhand(target,baseurl);
 
 await ''.txt();
 ''.img();
-await ary.map(d=>'{d.a}|{d.b}|{d.c}').sel();
+await ary.map(d=>`${d.a}|${d.b}|${d.c}`).sel();
 var i=bh();
 ```
